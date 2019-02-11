@@ -6,13 +6,6 @@ HDFS / Mapreduce cluster, or they can run in local mode.
 
 # Tasks
 
-
-1. Install Pig <https://pig.apache.org/docs/r0.15.0/start.html>
-(Optionally, install Hadoop / HDFS and Copy the source files to the HDFS)
-
-1. Install Hive
-   <https://cwiki.apache.org/confluence/display/Hive/GettingStarted>
-
 1. Obtain the MovieLens Latest Small dataset
 <http://grouplens.org/datasets/movielens/>
 
