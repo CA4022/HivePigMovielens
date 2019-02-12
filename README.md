@@ -1,4 +1,4 @@
-# HIVE and PIG
+# HIVE and PIG on Movielens
 
 For this Lab, we will use the MovieLens Small Dataset to examine the functions
 of HIVE and PIG. Both of these applications can either run on top of a working
