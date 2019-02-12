@@ -25,7 +25,7 @@ HDFS / Mapreduce cluster, or they can run in local mode.
 
 Read the <http://files.grouplens.org/datasets/movielens/ml-latest-small-README.html> for the details of how the files are organised.
 
-Useful Links on Hive and MovieLens:
+Useful Links on Hive and MovieLens (note that not all the data necessary to run the queries below is contained in the small dataset):
 * https://liamgavinmurray.com/2014/04/13/evaluating-film-user-behaviour-with-hive/
 * https://ragrawal.wordpress.com/2013/09/14/detecting-gender-bias-per-movie-genre-using-hive/
 
