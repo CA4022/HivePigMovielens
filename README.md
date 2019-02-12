@@ -10,12 +10,23 @@ HDFS / Mapreduce cluster, or they can run in local mode.
 <http://grouplens.org/datasets/movielens/>
 
 1. Load the MovieLens Dataset files with pig and then query them with Hive
-    1. With pig, you will need to split the genres, correlate the ratings and
-       decide which files to merge or not
-    1. Example Hive Query: Title of the Top-rated Action / Comedy movie?
-    1. Example Hive Query: Title of the user with the highest average rating?
+    1. With pig, you will need to clean and orgalize the data, including, among others:
+        * split multiple genres
+        * fix delimiters
+        * separate year from title
+        * decide which files to merge or not into single tables
+        * etc... based on what queries/exploration/analysis you want to run
+1. With HIVE you need to explore the data you have structured by running some queries as per example below (in order of difficulty):
+    * What is the Title of the Top-rated Action / Comedy movie?
+    * What is the User with the highest average rating?
+    * What is the most popular rating and how are ratings distributed across the dataset?
+    * How are ratings distributed by genre?
+    * ... 
 
-Read the <http://files.grouplens.org/datasets/movielens/ml-latest-small-README.html>
-for the details of how the files are organised.
+Read the <http://files.grouplens.org/datasets/movielens/ml-latest-small-README.html> for the details of how the files are organised.
+
+Useful Links on Hive and MovieLens:
+* https://liamgavinmurray.com/2014/04/13/evaluating-film-user-behaviour-with-hive/
+* https://ragrawal.wordpress.com/2013/09/14/detecting-gender-bias-per-movie-genre-using-hive/
 
 
