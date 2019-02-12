@@ -21,7 +21,7 @@ HDFS / Mapreduce cluster, or they can run in local mode.
     * What is the User with the highest average rating?
     * What is the most popular rating and how are ratings distributed across the dataset?
     * How are ratings distributed by genre?
-    * ... 
+    * ... anything you want to query about tags?
 
 Read the <http://files.grouplens.org/datasets/movielens/ml-latest-small-README.html> for the details of how the files are organised.
 
