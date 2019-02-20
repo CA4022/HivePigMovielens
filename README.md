@@ -7,7 +7,8 @@ HDFS / Mapreduce cluster, or they can run in local mode.
 # Tasks
 
 1. Obtain the MovieLens Latest Small dataset
-<http://grouplens.org/datasets/movielens/>
+ + <http://grouplens.org/datasets/movielens/>
+ + wget http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 
 1. Load the MovieLens Dataset files with pig and then query them with Hive
     1. With pig, you will need to clean and orgalize the data, including, among others:
