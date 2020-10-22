@@ -10,6 +10,7 @@ I suggest you use the local mode for debugging first, and then move onto executi
    * `$ wget http://files.grouplens.org/datasets/movielens/ml-latest-small.zip`
 
 2. Load and clean the MovieLens Dataset files with Pig. Before saving the results into a .csv file for further processing, you would need to clean and organize the data, including, among others:
+
         - split multiple genres
         - fix delimiters
         - separate year from title
