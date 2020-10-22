@@ -4,7 +4,7 @@ For this Lab, we will use the MovieLens Small Dataset to examine the functions o
 Both of these applications can either run on top of a working HDFS / Mapreduce cluster, or they can run in local mode. 
 I suggest you use the local mode for debugging first, and then move onto executing them on your Hadoop cluster.
 
-# Tasks
+## Tasks
 
 1. Obtain the MovieLens Latest Small dataset from [here](http://grouplens.org/datasets/movielens/)
    * `$ wget http://files.grouplens.org/datasets/movielens/ml-latest-small.zip`
@@ -33,9 +33,14 @@ I suggest you use the local mode for debugging first, and then move onto executi
     * How are ratings distributed by genre? (this can tell you what genre is most seen and rated, independently of the rating)
 
 
+## Notes
+* Read the [README](http://files.grouplens.org/datasets/movielens/ml-latest-small-README.html) for details of how the files are organised.
+* Note that when you execute Pig and Hive onto your Hadoop cluster, you need to:
+  - run dfs and yarn
+  - check your JAVA_HOME, HADOOP_HOME, HIVE_HOME and PIG_HOME are set corectly, if not use `export` to set them.
+  - make sure the MovieLens dataset you downleaded is present onto the hadoop HDFS (if not, use `-put` or `-copyFromLocal` to move it)
 
-Read the [README](http://files.grouplens.org/datasets/movielens/ml-latest-small-README.html) for details of how the files are organised.
-
+## Useful Links
 Useful Links on Hive and MovieLens (note that not all the data necessary to run the queries below is contained in the small dataset):
 * https://liamgavinmurray.com/2014/04/13/evaluating-film-user-behaviour-with-hive/
 * https://ragrawal.wordpress.com/2013/09/14/detecting-gender-bias-per-movie-genre-using-hive/
