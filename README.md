@@ -11,11 +11,11 @@ I suggest you use the local mode for debugging first, and then move onto executi
 
 2. Load and clean the MovieLens Dataset files with Pig. Before saving the results into a .csv file for further processing, you would need to clean and organize the data, including, among others:
 
-        - split multiple genres
-        - fix delimiters
-        - separate year from title
-        - decide which files to merge or not into single tables
-        - etc... based on what queries/exploration/analysis you need to run
+     - split multiple genres
+     - fix delimiters
+     - separate year from title
+     - decide which files to merge or not into single tables
+     - etc... based on what queries/exploration/analysis you need to run
 
 3. With Pig, do some simple analyis on the data you have loaded and cleaned, specifically:
     * What is the title of the movie with the highest number of ratings (top-rated movie)?
