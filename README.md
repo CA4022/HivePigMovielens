@@ -41,8 +41,9 @@ I suggest you use the local mode for debugging first, and then move onto executi
   - make sure the MovieLens dataset you downleaded is present onto the hadoop HDFS (if not, use `-put` or `-copyFromLocal` to move it)
 
 ## Useful Links
-Useful Links on Hive and MovieLens (note that not all the data necessary to run the queries below is contained in the small dataset):
-* https://liamgavinmurray.com/2014/04/13/evaluating-film-user-behaviour-with-hive/
-* https://ragrawal.wordpress.com/2013/09/14/detecting-gender-bias-per-movie-genre-using-hive/
+Useful Links on Pig, Hive and MovieLens (note that not all the data necessary to run the queries below is contained in the small dataset):
+* [Hive for film user behaviour](https://liamgavinmurray.com/2014/04/13/evaluating-film-user-behaviour-with-hive/)
+* [Hive for gender bias](https://ragrawal.wordpress.com/2013/09/14/detecting-gender-bias-per-movie-genre-using-hive/
+* [Pig for loading/cleaning MovieLens files](https://ashokharnal.wordpress.com/2014/03/25/analysing-movielens-movie-data-using-pig-a-step-by-step-tutorial/)
 
 
